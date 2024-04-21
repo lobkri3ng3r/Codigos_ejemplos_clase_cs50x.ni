@@ -1,0 +1,3 @@
+Nombre: Mike | Edad: 25
+Nombre: Irian | Edad: 20
+Nombre: Elo | Edad: 22
