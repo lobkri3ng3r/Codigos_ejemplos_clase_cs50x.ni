@@ -1,0 +1,15 @@
++-----------------------------------------+--------+-----------------+--------+-----------------+------------------+--------------+
+|                 nombre                  | precio |     genero      | rating |   plataforma    |   conectividad   | espacioDisco |
++-----------------------------------------+--------+-----------------+--------+-----------------+------------------+--------------+
+| Minecraft                               | 34.99  | Aventura        | 4.8    | pc              | offline - online | 500.0        |
+| The Witcher 3: Wild Hunt                | 29.99  | RPG             | 4.9    | PS4             | Online           | 50.0         |
+| Call of Duty: Modern Warfare            | 59.99  | Shooter         | 4.7    | Xbox One        | Online           | 150.0        |
+| Animal Crossing: New Horizons           | 49.99  | Simulación      | 4.8    | Nintendo Switch | Offline - Online | 25.0         |
+| FIFA 22                                 | 54.99  | Deportes        | 4.6    | PS5             | Online           | 80.0         |
+| Grand Theft Auto V                      | 39.99  | Acción          | 4.9    | PC              | Offline - Online | 100.0        |
+| The Legend of Zelda: Breath of the Wild | 49.99  | Aventura        | 4.8    | Nintendo Switch | Offline          | 30.0         |
+| Overwatch                               | 39.99  | Shooter         | 4.7    | Xbox Series X   | Online           | 60.0         |
+| Red Dead Redemption 2                   | 44.99  | Acción-Aventura | 4.9    | PS4             | Offline          | 120.0        |
+| League of Legends                       | 0.0    | MOBA            | 4.8    | PC              | Online           | 20.0         |
+| Fortnite                                | 0.0    | Battle Royale   | 4.7    | Mobile          | Online           | 10.0         |
++-----------------------------------------+--------+-----------------+--------+-----------------+------------------+--------------+
