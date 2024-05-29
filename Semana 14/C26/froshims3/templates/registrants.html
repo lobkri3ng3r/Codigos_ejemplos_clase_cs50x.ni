@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <a href="/">Regresar</a>
+<h1>Registrants</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sport</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for name in registrants %}
+                <tr>
+                    <td>{{ name }}</td>
+                    <td>{{ registrants[name] }}</td>
+                    <form action = "/eliminate" method = "GET">
+                    <td>
+                        <input name="q" type="hidden" value="{{name }}">
+                        <button type="submit">Eliminar</button>
+                    </td>
+                </form>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
