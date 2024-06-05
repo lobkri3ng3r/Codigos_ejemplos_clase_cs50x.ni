@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block tittle %} Mi agenda {% endblock %}
+
+{% block body %}
+<div class="mb-3">
+    <h3 class="centro">Mis contactos</h3>
+</div>
+
+<br>
+
+<div class="centro">
+
+    <form class="row g-3" action="/" method="post">
+        <div class="col-auto">
+          <label for="staticEmail2" class="visually-hidden">Nombre</label>
+          <input type="text" name="nombre" class="form-control" id="inputPassword2" placeholder="Nombre contacto">
+        </div>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">telefono</label>
+          <input type="text" name="numero" class="form-control" placeholder="Numero telefono">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Agregar contacto</button>
+        </div>
+    </form>
+</div>
+
+<br>
+
+<div class="table-container centro">
+    <table class="responsive-table">
+        <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Telefono</th>
+          <th>Accion</th>
+
+        </tr>
+      </thead>
+      <tbody>
+          {%for i in datos%}
+          <tr>
+            <td>{{i.nombre}}</td>
+            <td>{{i.numero_telefono}}</td>
+            <td>
+                <a href=""><button type="button">Eliminar</button></a>
+                <a href=""><button type="button">Nuevo numero</button></a>
+                <a href=""><button type="button">Editar</button></a>
+            </td>
+          </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+  </div>
+
+
+{% endblock %}
