@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <a href="/"><h3>regresar</h3></a>
+    <br>
+
+    <h1>Cart</h1>
+    <ol>
+        {% for book in books %}
+            <li>{{ book["title"] }}</li>
+        {% endfor %}
+    </ol>
+
+    <br>
+
+        <form action="/limpiar" method="post">
+            <input type="submit" value="Limpiar carrito">
+        </form>
+
+{% endblock %}
